@@ -31,11 +31,11 @@ All figures come from the snapshot of 15 October 2026: 59,222 issues, of which 4
 The project slicer on the four analysis pages is synchronised, so one selection applies to all of them.
 
 ### Speed: do higher priorities get fixed faster, and which components are slow?
-![Speed page](docs/Speed.png)
+![Speed page](docs/Speed.PNG)
 ### Backlog and people: how old are the open issues, and how concentrated is the work?
-![Backlog and people page](docs/Backlog_and_People.png)
+![Backlog and people page](docs/Backlog_and_People.PNG)
 ### Outcomes: how do issues end, and does that change over time?
-![Outcomes page](docs/Outcomes.png)
+![Outcomes page](docs/Outcomes.PNG)
 
 ## Data
 
