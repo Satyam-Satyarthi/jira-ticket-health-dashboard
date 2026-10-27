@@ -1,2 +1,5 @@
 # Ignore all files and folders under data/
 data/*
+__pycache__/
+.venv/
+.env
