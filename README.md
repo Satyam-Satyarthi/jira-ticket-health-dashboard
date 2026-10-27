@@ -2,7 +2,7 @@
 
 How healthy are the issue trackers of three large Apache projects? This project pulls 59,222 public Jira issues from **Apache Kafka, Cassandra and Hadoop**, cleans and models them, and answers seven questions about backlog, speed, priorities, components, ageing, outcomes and ownership in a five-page Power BI dashboard.
 
-![Overview page](docs/Overview.png)
+![Overview page](docs/Overview.PNG)
 
 ## Questions and findings
 
@@ -31,11 +31,11 @@ All figures come from the snapshot of 15 October 2026: 59,222 issues, of which 4
 The project slicer on the four analysis pages is synchronised, so one selection applies to all of them.
 
 ### Speed: do higher priorities get fixed faster, and which components are slow?
-![Speed page](docs/Speed.png)
+![Speed page](docs/Speed.PNG)
 ### Backlog and people: how old are the open issues, and how concentrated is the work?
-![Backlog and people page](docs/Backlog_and_People.png)
+![Backlog and people page](docs/Backlog_and_People.PNG)
 ### Outcomes: how do issues end, and does that change over time?
-![Outcomes page](docs/Outcomes.png)
+![Outcomes page](docs/Outcomes.PNG)
 
 ## Data
 
