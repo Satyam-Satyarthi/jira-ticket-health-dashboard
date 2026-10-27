@@ -46,7 +46,7 @@ The project slicer on the four analysis pages is synchronised, so one selection 
 
 ## Method
 
-**Pipeline:** `jira_pull.py` downloads one CSV per project, `clean_data.py` produces one clean row per issue plus an issue-to-component table, `build_model_tables.py` writes the star-schema tables, and Power BI loads them.
+**Pipeline:** `jira_pull.py` downloads one CSV per project, `clean_data.py` produces one clean row per issue plus an issue-to-component table, `model_tables.py` writes the star-schema tables, and Power BI loads them.
 
 **Cleaning decisions**
 
@@ -85,10 +85,10 @@ Requires Python 3.14 (any recent 3.x should work) and Power BI Desktop (Windows)
 pip install -r requirements.txt
 python scripts/jira_pull.py KAFKA CASSANDRA HADOOP
 python scripts/clean_data.py
-python scripts/build_model_tables.py
+python scripts/model_tables.py
 ```
 
-Before the first run, open `scripts/jira_pull.py` and set your own contact email in `HEADERS` and a private random string as `SALT`. Do not commit either. Add `--limit 200` to the pull for a quick test.
+Before the first run, open `scripts/jira_pull.py` and set your own contact email in `HEADERS` and set `$env:JIRA_SALT = "any random text"` in PowerShell before running the pull. Do not commit either. Add `--limit 200` to the pull for a quick test.
 
 The Power BI file already contains the data, so it opens without any of the above. To refresh it from your own run, point the queries at `data/model/` under Transform data > Data source settings.
 
