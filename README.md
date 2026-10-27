@@ -2,6 +2,8 @@
 
 How healthy are the issue trackers of three large Apache projects? This project pulls 59,222 public Jira issues from **Apache Kafka, Cassandra and Hadoop**, cleans and models them, and answers seven questions about backlog, speed, priorities, components, ageing, outcomes and ownership in a five-page Power BI dashboard.
 
+A PDF export of the full dashboard is in [dashboard/Jira_Ticket_Health.pdf](dashboard/Jira_Ticket_Health.pdf)
+
 ![Overview page](docs/Overview.PNG)
 
 ## Questions and findings
